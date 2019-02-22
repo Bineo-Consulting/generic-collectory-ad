@@ -1,0 +1,62 @@
+#main-content #customiseFacetsButton > .dropdown-menu,
+#main-content #resultsReturned .dropdown-menu {
+    background-color: #fff;
+}
+
+body {
+    font-family: myriad pro;
+    color: #5b566a;
+}
+
+/*NAV*/
+ul.nav li a, ul.nav li a:visited {
+    color: #0088cc !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #005580 !important;
+}
+
+ul.nav li.active a {
+    color: #0088cc !important;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #e4e4e4;
+}
+footer .row {
+    padding-top: 1.5em;
+}
+/*footer .span4 {
+    border-right: 1px solid #a9a7af;
+}*/
+footer .span4 a{
+    /*color:#5b566a;*/
+    text-decoration:none;
+}
+footer .span4:last-child {
+    border: 0px;
+}
+.footer.bottom {
+    background-color: #d3d2d2;
+    text-align: center;
+}
+.footer.bottom img {
+    margin: 0.5em;
+}
+.aviso {
+    background-color: #ffffff;
+    padding:11px;
+    margin-bottom:10px;
+    color:#312d3e;
+    border:1px dotted #fb7830;
+}
+.aviso img {
+    float:left;
+    padding-right:6px;
+}
+.aviso a{
+    color:#312d3e !important;
+    font-weight:bold;
+}
